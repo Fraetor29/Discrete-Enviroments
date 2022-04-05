@@ -47,7 +47,7 @@ class DQN_Agent():
         
     def update(self, batch_size):
         
-        if (len(self.memory) < batch_size): # We will wait until our memory buffer has at least "batch_size" position
+        if (self.memory.__len__() < batch_size): # We will wait until our memory buffer has at least "batch_size" position
             return
         
         state, action, new_state, reward, done = self.memory.sample(batch_size) # Import samples from memory
