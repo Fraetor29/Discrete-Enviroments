@@ -1,6 +1,6 @@
 # Discrete-Enviroments
 
-Here is presented DQN algorithm
+Here is presented DQN algorithm.
 In DQN_Main we can change parameters to see how Agent learns.
 
 Parameter 'egreedy_decay' is to adjust the exponential probability to pick random action. This is good if we want our Agent to explore more.
