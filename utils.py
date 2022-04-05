@@ -95,7 +95,6 @@ def evaluate_agent(agent, env, eval_episodes, render = False):
     print("Evaluation over {:d} episodes: {:f}" .format(eval_episodes, avg_reward))
     print("---------------------------------------")
     env.close()
-    return avg_reward
 
 def train(agent, env, num_episodes, batch_size, egreedy_decay, file2save, directory):
     """Train agents"""
