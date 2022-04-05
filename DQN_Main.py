@@ -52,7 +52,7 @@ we can store 'avg_rewards' in some variable and plot them"""
 # agent2 = DQN_Agent(env, 150, 150, 2, 0.02, 25000, 32, 0.99)
 
 # agent1_average = train(agent1, env, 25, 32, 500, 'agent1', 'saves')
-# agent2_average = train(agent2, env, 25, 32, 500, 'agent1', 'saves')
+# agent2_average = train(agent2, env, 25, 32, 500, 'agent2', 'saves')
 
 # plt.plot(agent1_average, label = "agent1")
 # plt.plot(agent2_average, label = "agent2")
